@@ -3,13 +3,13 @@ require("dotenv").config();
 
 module.exports = {
   //==========================================- MAIN - CONFIGS -==================================================================
-  SESSION_ID: process.env.SESSION_ID || "Put Session Id",
+  SESSION_ID: process.env.SESSION_ID || "rAcxRQJI#iAOmgckVYr2ZWHioLIrWBlHu9H89lTP0NLAy0Zh5Upg",
   // ADD Your Session Id 
   MONGODB: process.env.MONGODB || "mongodb+srv://kulathungaasitha319:yjHB0DvFfStNfwPS@cluster0.3oijd.mongodb.net/",
     // ADD Your MongoDB Database URL
-  PREFIX: process.env.PREFIX || ".",
+  PREFIX: process.env.PREFIX || "@",
   // Add Your Custom Prefix 
-  mode: process.env.mode || "public",
+  mode: process.env.mode || "private",
   // Add Your Bot Mode 
   // private = Only Working For Owner Number
   // public = AnyOne Working
